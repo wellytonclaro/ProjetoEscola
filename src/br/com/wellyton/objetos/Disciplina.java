@@ -5,11 +5,14 @@
  */
 package br.com.wellyton.objetos;
 
+import java.util.ArrayList;
+import java.util.Date;
+
 /**
  *
  * @author wellyton.154317
  */
-public class Disciplina {
+public class Disciplina  {
     private String nome;
     private String departamento ;
     private char status;
@@ -24,6 +27,8 @@ public class Disciplina {
         this.departamento = departamento;
         this.status = status;
     }
+
+ 
 
     public String getNome() {
         return nome;

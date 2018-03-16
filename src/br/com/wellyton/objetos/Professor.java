@@ -17,6 +17,10 @@ public class Professor {
     private float valorHora;
     private float salario;
 
+    public Professor(int i, int i0, int i1, String professor, String string) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     @Override
     public String toString() {
         return "Professor{" + "disciplinas=" + disciplinas + ", cargaHoraria=" + cargaHoraria + ", valorHora=" + valorHora + ", salario=" + salario + '}';
